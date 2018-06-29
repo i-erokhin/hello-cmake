@@ -1,5 +1,7 @@
 #include <stdio.h>
+#include <sysexits.h>
 
-void main(void) {
+int main(void) {
     printf("Hello from CMake project\n");
+    return EX_OK;
 }
